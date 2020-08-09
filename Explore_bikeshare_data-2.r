@@ -1,4 +1,3 @@
-
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
@@ -49,7 +48,7 @@ common_month_plot
 mean_june <- mean(c(df[6,2],df[6,3],df[6,4]))
 mean_june
 
-From the above bar plot, we can conculde that the common month for all three cities is June with 2816 for Chicago, 14000 for NYC, and 20335 for Washinfton. Mean of common month is 12383.7 
+From the above bar plot, we can conculde that the common month for all three cities is June with 2816 for Chicago, 14000 for NYC, and 20335 for Washinfton. Mean of common month is 12383.7. The contrasting phenomenon could infer the discrepancy of traffic conditions. 
 
 What's the average travel time in all the three cities
 
