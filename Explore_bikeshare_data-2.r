@@ -90,7 +90,7 @@ gender_ct_ny
 df <- data.frame(Gender=c('Unkown', 'Female', 'Male'), NYC=gender_ct_ny$ny.gender.ct, Chicago=gender_ct_chi$chi.gender.ct)
 newdf <- df %>% gather(key=City, value=Count, NYC, Chicago)
 
-ggplot(newdf, aes(City, Count, fill=Gender)) + geom_col(position='dodge') + ggtitle('Gender by Cities') + theme(plot.title = element_text(hjust = 0.5))
+ggplot(newdf, aes(City, Count, fill=Gender)) + geom_col(position='dodge', alpha=0.5, colour="black") + ggtitle('Gender by Cities') + theme(plot.title = element_text(hjust = 0.5))
 
 The result is obviously contrasting, the common feature in two cities is that the number of identified male is larger than that of female significantly with reported 37201 males in NYC.
 
