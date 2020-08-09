@@ -68,7 +68,7 @@ avg_trip
 
 df <- data.frame(City=c('Chicago', 'New_York', 'Washington'), avg_trip=c(avg_trip[[1]],avg_trip[[2]],avg_trip[[3]]))
 
-ggplot(df, aes(City, avg_trip, fill=City)) + geom_col(position='dodge') + ggtitle('Average Travel Time') + theme(plot.title = element_text(hjust = 0.5))
+ggplot(df, aes(City, avg_trip, fill=City)) + geom_col(position='dodge') + geom_point(alpha=0.5) + ggtitle('Average Travel Time') + theme(plot.title = element_text(hjust = 0.5))
 
 In sum, average trip timr in Washington is the highest amoung all three cities.And mean of Chicago and NYC is similar, which is around 900
 
