@@ -5,7 +5,7 @@
 Explore_bikeshare_data-2
 
 ### Description
-Describe what your project is about and what it does
+The project is about exploratory of bike share data analysis.
 
 ### Files used
 Include the files used
