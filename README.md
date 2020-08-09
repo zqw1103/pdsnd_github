@@ -10,7 +10,9 @@ It has 3 areas of interests:What's the common month, What's the average travel t
 What are the counts of each gender (only available for NYC and Chicago)
 
 ### Files used
-Include the files used
+chicago.csv
+new-york-city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
